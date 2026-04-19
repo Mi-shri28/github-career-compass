@@ -100,3 +100,13 @@
     box-shadow: 0 0 20px -4px hsl(var(--primary) / 0.4);
   }
 }
+/* Remove Lovable badge/logo */
+a[href*="lovable"],
+div[class*="lovable"],
+div[id*="lovable"] {
+  display: none !important;
+}
+/* Remove floating bottom-right badge */
+div[style*="position: fixed"] {
+  display: none !important;
+}
